@@ -123,41 +123,46 @@ int main(int argc, char*argv[]) {
 	 * Reading BAM file.
 	 ***************************/
 	int counter = 0;
+    int prev_tid=-1;
+    char* prev_refname;
+    GVec<uint64_t> bcov(2048*1024);
+    std::vector<std::pair<float,uint64_t>> bsam(2048*1024,{0,1}); // number of samples. 1st - current average; 2nd - total number of values
+//    std::vector<std::set<int>> bsam_idx(2048*1024,std::set<int>{}); // for indexed runs
+    int b_end=0; //bundle start, end (1-based)
+    int b_start=0; //1 based
+
+    // cout << "b_end: " << b_end << "  b_start: " << b_start << endl;
 	while ((irec=inRecords.next())!=NULL) {
 		brec=irec->brec;
-		// cout << irec->fidx << endl;
-		
-        // if (brec->hasIntrons()) {
-		// 	// This is a spliced read => start processing it!
-		// 	// char strand = brec->spliceStrand();
-		// 	// cout << "strand       : " << strand << endl;
-		// 	// cout << "brec->cigar(): " << brec->cigar() << endl;
-		// 	for (int i=1;i<brec->exons.Count();i++) {
-		// 		int strand = 0;
-		// 		if (brec->spliceStrand() == '+') strand = 1;
-		// 		if (brec->spliceStrand() == '-') strand = -1;
-		// 		// cout << "brec->refName(): " << brec->refName()<< endl;
-		// 		char* bamseq_name = strdup(brec->refName());
-		// 		// cout << "bamseq_name: " << bamseq_name << endl;
+        // cout << brec->refId() << endl;
+        uint32_t dupcount=0;
+        std::vector<int> cur_samples;
+        int endpos=brec->end;
 
-		// 		intron_key* bamkey = new intron_key;
-		// 		bamkey->seqname = bamseq_name;
-		// 		bamkey->strand = strand;
-		// 		bamkey->start = brec->exons[i-1].end+1;
-		// 		bamkey->end = brec->exons[i].start-1;
+        if (brec->refId()!=prev_tid || (int)brec->start>b_end) {
+            if (outf) {
+                flushJuncs(outf, prev_refname);
+            } // TODO: write the last column to 3 dec places
+            b_start=brec->start;
+            b_end=endpos;
+            prev_tid=brec->refId();
 
-		// 		// intron_key bamkey {
-		// 		// 	bamseq_name,
-		// 		// 	strand,
-		// 		// 	brec->exons[i-1].end+1,
-		// 		// 	brec->exons[i].start-1,
-		// 		// };
-		// 		// cout << "\tIntron: " << brec->refName() << "; " << brec->spliceStrand() << "; " << brec->exons[i-1].end+1 << " - " << brec->exons[i].start-1 << endl;	
-		// 		// CJunc j(brec->exons[i-1].end+1, brec->exons[i].start-1, strand,
-		// 		// 		dupcount);
-		// 	}
-		// }
+            prev_refname=(char*)brec->refName();
+        } else { //extending current bundle
+            if (b_end<endpos) {
+                b_end=endpos;
+                bcov.setCount(b_end-b_start+1, (int)0);
+            }
+        }
+        int accYC = 0;
+        accYC = brec->tag_int("YC", 1);
+        // cout << "accYC: " << accYC << endl;
+        if (outf && brec->exons.Count()>1) {
+            addJunction(*brec, accYC);
+        }
 	}
+    flushJuncs(outf, prev_refname);
+    fclose(outf);
 }
 
 void processOptions(int argc, char* argv[]) {
