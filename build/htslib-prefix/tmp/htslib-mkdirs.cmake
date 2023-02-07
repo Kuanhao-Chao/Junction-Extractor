@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib"
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-build"
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix"
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/tmp"
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp"
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src"
-  "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-build"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/tmp"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src"
+  "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp${cfgdir}") # cfgdir has leading slash
 endif()

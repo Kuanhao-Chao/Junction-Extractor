@@ -1,10 +1,10 @@
 # Hashes of file build rules.
-560aa6fe4b50841da87ffafee3cf620c CMakeFiles/htslib
-b04a1bad4c1b66c3bcdc1d3c6cbec54b CMakeFiles/htslib-complete
-c48bb6d9929eaec25afc20c3b50323d7 htslib-prefix/src/htslib-stamp/htslib-build
-2ed0e8c90f91a740735f38882a84b1b2 htslib-prefix/src/htslib-stamp/htslib-configure
-a2a1f0976b4a806e8d5ba7e387b9abc9 htslib-prefix/src/htslib-stamp/htslib-download
-751d4ade867eeb6b4c5f3e5fbf2bee78 htslib-prefix/src/htslib-stamp/htslib-install
-943ffab25fb5315eb0f31c5f0bc87b66 htslib-prefix/src/htslib-stamp/htslib-mkdir
-287900734bfc98bb1e46e68b4190e940 htslib-prefix/src/htslib-stamp/htslib-patch
-7dc37a723ddc27c3603de7068b354215 htslib-prefix/src/htslib-stamp/htslib-update
+8d7741b402e9c8246ebbe97941268963 CMakeFiles/htslib
+669262deb8ac367cf24f9543f7ed3d21 CMakeFiles/htslib-complete
+db226471c12c86ff6c186f9ebfd1469d htslib-prefix/src/htslib-stamp/htslib-build
+b611e6bea6e82b974b882e0f52a3e63e htslib-prefix/src/htslib-stamp/htslib-configure
+f78930b1b392e5939c0ec8764526deba htslib-prefix/src/htslib-stamp/htslib-download
+337f4a40af2db4da1ef3f419ae748b96 htslib-prefix/src/htslib-stamp/htslib-install
+81939c5a05248c5af87e4abe674400d6 htslib-prefix/src/htslib-stamp/htslib-mkdir
+2c4accc3f1d3d650bf5ae063cc6f5f0a htslib-prefix/src/htslib-stamp/htslib-patch
+dae19d1218447c22d22a93c5886ef5be htslib-prefix/src/htslib-stamp/htslib-update

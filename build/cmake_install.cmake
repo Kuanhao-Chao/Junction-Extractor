@@ -1,4 +1,4 @@
-# Install script for directory: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor
+# Install script for directory: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,11 +46,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/local" TYPE EXECUTABLE FILES "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/junction_extractor")
+  file(INSTALL DESTINATION "/usr/local" TYPE EXECUTABLE FILES "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/junction_extractor")
   if(EXISTS "$ENV{DESTDIR}/usr/local/junction_extractor" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/junction_extractor")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib"
+      -delete_rpath "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib"
       "$ENV{DESTDIR}/usr/local/junction_extractor")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}/usr/local/junction_extractor")
@@ -66,5 +66,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

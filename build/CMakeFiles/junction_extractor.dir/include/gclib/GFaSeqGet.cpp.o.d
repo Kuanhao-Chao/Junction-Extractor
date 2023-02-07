@@ -1,9 +1,9 @@
 CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFaSeqGet.cpp \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFaSeqGet.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFastaIndex.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GHashMap.hh \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GBase.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFaSeqGet.cpp \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFaSeqGet.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFastaIndex.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GHashMap.hh \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GBase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h \
@@ -155,7 +155,7 @@ CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_filesec_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/stdarg.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/khashl.hh \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/khashl.hh \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -297,11 +297,11 @@ CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/xxhash.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/xxhash.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/arm_neon.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/wyhash.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GList.hh \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GVec.hh \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/wyhash.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GList.hh \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GVec.hh \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
@@ -396,4 +396,4 @@ CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gdna.h
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gdna.h

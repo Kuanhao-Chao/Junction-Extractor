@@ -1,6 +1,6 @@
 CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/tmerge.cpp \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/tmerge.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/tmerge.cpp \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/tmerge.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -354,8 +354,8 @@ CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GStr.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GBase.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GStr.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GBase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_posix_vdisable.h \
@@ -394,9 +394,9 @@ CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/stat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_filesec_t.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GVec.hh \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GList.hh \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/GSam.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GVec.hh \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GList.hh \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/GSam.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view \
@@ -438,17 +438,17 @@ CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/nl_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/kstring.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/hts_defs.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/kroundup.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/sam.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/hts.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/kstring.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/hts_defs.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/kroundup.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/sam.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/hts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/inttypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/hts_log.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/hts_endian.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/cram.h \
-  /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/htslib/khash.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/hts_log.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/hts_endian.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/cram.h \
+  /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/htslib/khash.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream

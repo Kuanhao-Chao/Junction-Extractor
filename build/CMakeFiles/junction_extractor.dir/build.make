@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor
+CMAKE_SOURCE_DIR = /Users/chaokuan-hao/Documents/Projects/Junction-Extractor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build
+CMAKE_BINARY_DIR = /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/junction_extractor.dir/depend.make
@@ -70,144 +70,144 @@ include CMakeFiles/junction_extractor.dir/progress.make
 include CMakeFiles/junction_extractor.dir/flags.make
 
 CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/junction_extractor.cpp
+CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/junction_extractor.cpp
 CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o -MF CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o.d -o CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/junction_extractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o -MF CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o.d -o CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/junction_extractor.cpp
 
 CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/junction_extractor.cpp > CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/junction_extractor.cpp > CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.i
 
 CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/junction_extractor.cpp -o CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/junction_extractor.cpp -o CMakeFiles/junction_extractor.dir/src/junction_extractor.cpp.s
 
 CMakeFiles/junction_extractor.dir/src/GSam.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/src/GSam.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/GSam.cpp
+CMakeFiles/junction_extractor.dir/src/GSam.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/GSam.cpp
 CMakeFiles/junction_extractor.dir/src/GSam.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/junction_extractor.dir/src/GSam.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/src/GSam.cpp.o -MF CMakeFiles/junction_extractor.dir/src/GSam.cpp.o.d -o CMakeFiles/junction_extractor.dir/src/GSam.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/GSam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/junction_extractor.dir/src/GSam.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/src/GSam.cpp.o -MF CMakeFiles/junction_extractor.dir/src/GSam.cpp.o.d -o CMakeFiles/junction_extractor.dir/src/GSam.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/GSam.cpp
 
 CMakeFiles/junction_extractor.dir/src/GSam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/src/GSam.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/GSam.cpp > CMakeFiles/junction_extractor.dir/src/GSam.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/GSam.cpp > CMakeFiles/junction_extractor.dir/src/GSam.cpp.i
 
 CMakeFiles/junction_extractor.dir/src/GSam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/src/GSam.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/GSam.cpp -o CMakeFiles/junction_extractor.dir/src/GSam.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/GSam.cpp -o CMakeFiles/junction_extractor.dir/src/GSam.cpp.s
 
 CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/tmerge.cpp
+CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/tmerge.cpp
 CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o -MF CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o.d -o CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/tmerge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o -MF CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o.d -o CMakeFiles/junction_extractor.dir/src/tmerge.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/tmerge.cpp
 
 CMakeFiles/junction_extractor.dir/src/tmerge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/src/tmerge.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/tmerge.cpp > CMakeFiles/junction_extractor.dir/src/tmerge.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/tmerge.cpp > CMakeFiles/junction_extractor.dir/src/tmerge.cpp.i
 
 CMakeFiles/junction_extractor.dir/src/tmerge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/src/tmerge.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/src/tmerge.cpp -o CMakeFiles/junction_extractor.dir/src/tmerge.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/src/tmerge.cpp -o CMakeFiles/junction_extractor.dir/src/tmerge.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gff.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gff.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gff.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gff.cpp > CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gff.cpp > CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gff.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gff.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/gff.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gdna.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gdna.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gdna.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gdna.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gdna.cpp > CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gdna.cpp > CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/gdna.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/gdna.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/gdna.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/codons.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/codons.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/codons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/codons.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/codons.cpp > CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/codons.cpp > CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/codons.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/codons.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/codons.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFaSeqGet.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFaSeqGet.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFaSeqGet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFaSeqGet.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFaSeqGet.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFaSeqGet.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GFaSeqGet.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GFaSeqGet.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GFaSeqGet.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GStr.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GStr.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GStr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GStr.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GStr.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GStr.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GStr.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GStr.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GArgs.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GArgs.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GArgs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GArgs.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GArgs.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GArgs.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GArgs.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GArgs.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.s
 
 CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o: CMakeFiles/junction_extractor.dir/flags.make
-CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GBase.cpp
+CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GBase.cpp
 CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o: CMakeFiles/junction_extractor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o -c /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o -MF CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o.d -o CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o -c /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GBase.cpp
 
 CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GBase.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GBase.cpp > CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.i
 
 CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/gclib/GBase.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/gclib/GBase.cpp -o CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.s
 
 # Object files for target junction_extractor
 junction_extractor_OBJECTS = \
@@ -236,9 +236,9 @@ junction_extractor: CMakeFiles/junction_extractor.dir/include/gclib/GStr.cpp.o
 junction_extractor: CMakeFiles/junction_extractor.dir/include/gclib/GArgs.cpp.o
 junction_extractor: CMakeFiles/junction_extractor.dir/include/gclib/GBase.cpp.o
 junction_extractor: CMakeFiles/junction_extractor.dir/build.make
-junction_extractor: /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib/libhts.a
+junction_extractor: /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib/libhts.a
 junction_extractor: CMakeFiles/junction_extractor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable junction_extractor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable junction_extractor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/junction_extractor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -250,6 +250,6 @@ CMakeFiles/junction_extractor.dir/clean:
 .PHONY : CMakeFiles/junction_extractor.dir/clean
 
 CMakeFiles/junction_extractor.dir/depend:
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles/junction_extractor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chaokuan-hao/Documents/Projects/Junction-Extractor /Users/chaokuan-hao/Documents/Projects/Junction-Extractor /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles/junction_extractor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/junction_extractor.dir/depend
 

@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib
+source_dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib
 work_dir=
 

@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor
+CMAKE_SOURCE_DIR = /Users/chaokuan-hao/Documents/Projects/Junction-Extractor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build
+CMAKE_BINARY_DIR = /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build
 
 # Utility rule file for htslib.
 
@@ -76,48 +76,48 @@ CMakeFiles/htslib-complete: htslib-prefix/src/htslib-stamp/htslib-patch
 CMakeFiles/htslib-complete: htslib-prefix/src/htslib-stamp/htslib-configure
 CMakeFiles/htslib-complete: htslib-prefix/src/htslib-stamp/htslib-build
 CMakeFiles/htslib-complete: htslib-prefix/src/htslib-stamp/htslib-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'htslib'"
-	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles/htslib-complete
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'htslib'"
+	/Applications/CMake.app/Contents/bin/cmake -E make_directory /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles/htslib-complete
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-done
 
 htslib-prefix/src/htslib-stamp/htslib-build: htslib-prefix/src/htslib-stamp/htslib-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'htslib'"
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && $(MAKE)
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'htslib'"
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && $(MAKE)
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-build
 
 htslib-prefix/src/htslib-stamp/htslib-configure: htslib-prefix/tmp/htslib-cfgcmd.txt
 htslib-prefix/src/htslib-stamp/htslib-configure: htslib-prefix/src/htslib-stamp/htslib-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'htslib'"
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && autoreconf -i
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && ./configure --without-libdeflate --disable-libcurl --disable-lzma
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'htslib'"
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && autoreconf -i
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && ./configure --without-libdeflate --disable-libcurl --disable-lzma
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-configure
 
 htslib-prefix/src/htslib-stamp/htslib-download: htslib-prefix/src/htslib-stamp/htslib-source_dirinfo.txt
 htslib-prefix/src/htslib-stamp/htslib-download: htslib-prefix/src/htslib-stamp/htslib-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'htslib'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'htslib'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-download
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-download
 
 htslib-prefix/src/htslib-stamp/htslib-install: htslib-prefix/src/htslib-stamp/htslib-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'htslib'"
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E echo_append
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'htslib'"
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E echo_append
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/include/htslib && /Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-install
 
 htslib-prefix/src/htslib-stamp/htslib-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'htslib'"
-	/Applications/CMake.app/Contents/bin/cmake -Dcfgdir= -P /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/tmp/htslib-mkdirs.cmake
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'htslib'"
+	/Applications/CMake.app/Contents/bin/cmake -Dcfgdir= -P /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/tmp/htslib-mkdirs.cmake
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-mkdir
 
 htslib-prefix/src/htslib-stamp/htslib-patch: htslib-prefix/src/htslib-stamp/htslib-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'htslib'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'htslib'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-patch
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-patch
 
 htslib-prefix/src/htslib-stamp/htslib-update: htslib-prefix/src/htslib-stamp/htslib-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'htslib'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'htslib'"
 	/Applications/CMake.app/Contents/bin/cmake -E echo_append
-	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/htslib-prefix/src/htslib-stamp/htslib-update
+	/Applications/CMake.app/Contents/bin/cmake -E touch /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/htslib-prefix/src/htslib-stamp/htslib-update
 
 htslib: CMakeFiles/htslib
 htslib: CMakeFiles/htslib-complete
@@ -140,6 +140,6 @@ CMakeFiles/htslib.dir/clean:
 .PHONY : CMakeFiles/htslib.dir/clean
 
 CMakeFiles/htslib.dir/depend:
-	cd /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build /Users/chaokuan-hao/Documents/Projects/PR_SPLAM/src_junction_extractor/build/CMakeFiles/htslib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/chaokuan-hao/Documents/Projects/Junction-Extractor /Users/chaokuan-hao/Documents/Projects/Junction-Extractor /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build /Users/chaokuan-hao/Documents/Projects/Junction-Extractor/build/CMakeFiles/htslib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/htslib.dir/depend
 
