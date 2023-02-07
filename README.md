@@ -1,5 +1,8 @@
 # Junction-Extractor
 
+A simple tool to extract all splice junctions from a BAM file or a list of BAM files.
+
+
 ## Installation
 ```
 cd build
